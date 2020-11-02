@@ -1,0 +1,139 @@
+body {
+    position: relative;
+    margin: 0px;
+}
+
+.upper-logo {
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: white;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-shadow: 3px 2px 5px #9fa7a1;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+}
+
+.side-div {
+    display: flex;
+    flex-flow: column;
+    width: 20%;
+    z-index: 1;
+}
+
+.center-div {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    background-color: rgb(225, 230, 230);
+    
+}
+
+.header-new {
+    height: 68px;
+    background-color: #FDF1EB;
+    display: flex;
+    font-weight: 400;
+    font-family: 'Roboto';
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-new span {
+    color: #725C5C;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 5px;
+    margin-left: 50px;
+}
+
+.language select {
+    border: none;
+    outline: 0;
+    padding-top: 3px;
+    background-color: #FDF1EB;
+}
+
+.user {
+    display: flex;
+}
+
+.user .user-info {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Quicksand';
+    font-weight: 400;
+    font-size: 12px;
+    align-items: flex-end;
+}
+
+.user-pic img {
+    border-radius: 50%;
+    margin-left: 10px;
+    padding-top: 2px;
+}
+
+.user-pic span {    
+    bottom: 25px;
+    position: relative;
+    right: 15px;
+    color: white;
+    background-color: #F85959;
+    padding: 2px 5px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.side-menu {
+    box-shadow: 3px 2px 5px #9fa7a1;
+}
+
+.vertical-menu {
+    width: 100%;
+    height: 100%;
+}
+  
+.vertical-menu a {
+    background-color: #ffffff;
+    color: #725C5C;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(209,209,209)
+}
+  
+.vertical-menu a:hover {
+    background-color: #ffffff;
+}
+  
+.vertical-menu a.active {
+    background-color: #FDF1EB;
+    color: #5C5C5C;
+    border-left: 8px solid rgb(241,132,62);
+}
