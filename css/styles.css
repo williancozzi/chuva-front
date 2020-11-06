@@ -109,6 +109,10 @@ body {
     box-shadow: 3px 2px 5px #9fa7a1;
 }
 
+.side-menu img {
+    width: 100%;
+}
+
 .vertical-menu {
     width: 100%;
     height: 100%;
@@ -186,22 +190,25 @@ body {
 }
 
 .panel {
-    border: 2px solid #ECECEC;
     border-radius: 3px 3px 0px 0px;
+    height: 441px;
 }
 
-.subpanel ::-webkit-scrollbar {
+.panel .subpanel::-webkit-scrollbar {
     width: 5px;
     height: 5px;
-   }
-   .subpanel ::-webkit-scrollbar-thumb {
+}
+
+.panel .subpanel::-webkit-scrollbar-thumb {
     background: linear-gradient(13deg, #BFBFBF 14%,#bfbfbf 64%);
     border-radius: 10px;
-   }
-   .subpanel ::-webkit-scrollbar-thumb:hover{
+}
+
+.panel .subpanel::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(13deg, #BFBFBF 14%,#bfbfbf 64%);
-   }
-   .subpanel ::-webkit-scrollbar-track{
+}
+
+.panel .subpanel::-webkit-scrollbar-track {
     background: #ffffff;
     border-radius: 10px;
     box-shadow: inset 7px 10px 12px #f0f0f0;
@@ -210,6 +217,8 @@ body {
 .panel .header {
     background: #FDF1EB;
     padding: 10px 15px; 
+    border: 1px solid #ECECEC;
+    border-bottom: none;
 }
 
 .panel .subpanel {
@@ -221,6 +230,8 @@ body {
     letter-spacing: 0.02em;
     color: #5C5C5C;
     overflow-y: scroll;
+    border: 1px solid #ECECEC;
+    height: 82%;
 }
 
 .panel .footer {
@@ -228,7 +239,6 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
-    letter-spacing: 0.02em;
     color: #5C5C5C;
 }
 
