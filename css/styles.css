@@ -1,9 +1,8 @@
 body {
     position: relative;
     margin: 0px;
-
-width: 1366px;
-height: 1701px;
+    width: 1366px;
+    height: 1701px;
 }
 
 .upper-logo {
@@ -225,6 +224,13 @@ height: 1701px;
     border-bottom: none;
 }
 
+.discussions .header {
+    background: #FDF1EB;
+    padding: 10px 15px; 
+    border: 1px solid #ECECEC;
+    border-bottom: none; 
+}
+
 .panel .subpanel {
     padding: 15px;
     font-family: Quicksand;
@@ -252,6 +258,19 @@ height: 1701px;
     box-sizing: border-box;
     border-radius: 3px 3px 0px 0px;
     max-height: 11%;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.discussions {
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+    max-height: 34%;
+    height: 30%;
+    margin-top: 8px;
+    margin-left: 40px;
 }
 
 .resume .header{
@@ -262,6 +281,19 @@ height: 1701px;
 }
 
 .resume-subpanel{
+    padding: 15px;
+    background: #ffffff;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    color: #5C5C5C;
+    cursor: pointer;
+}
+
+.discussions-subpanel{
     padding: 15px;
     background: #ffffff;
     font-family: Quicksand;
@@ -305,6 +337,7 @@ height: 1701px;
     margin-right: 5px;
     border: 1px solid #00000027;
     padding: 6px;
+    cursor: pointer;
 }
 
 .star {
@@ -325,6 +358,7 @@ height: 1701px;
     height: 31px;
     margin-right: 5px;
     border: 1px solid #00000027;
+    cursor: pointer;
 }
 
 .doi {
@@ -344,5 +378,89 @@ height: 1701px;
     Width: 40px;
     Height: 31px;
     border: 1px solid #00000027;
+    cursor: pointer;
 }
 
+.img-galoa {
+    margin-top: 80px;
+}
+
+.discussions-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #ED7839;
+    text-align: center;
+}
+
+.discussions-image {
+    display: flex;
+    justify-content: center;
+}
+
+.img-size {
+    width: 320px;
+}
+
+.plus-font {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.topics {
+    background: #ffffff;
+    padding: 10px 15px; 
+    border: 1px solid #ECECEC;
+    border-bottom: none;
+    width: 97%;
+    margin-bottom: 30px;
+}
+
+.topics-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #ED7839;
+}
+
+.heart {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 4px;
+    background: #ED7839;
+    border-radius: 4px;
+    width: 27px;
+    height: 19px;
+    margin-right: 5px;
+    border: 1px solid #00000027;
+    cursor: pointer;
+}
+
+.heart-size {
+    height: auto; 
+    width: auto; 
+    max-width: 15px; 
+    max-height: 15px;
+}
+
+.topics-align {
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+}
